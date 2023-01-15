@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+main{
+    
+    margin-top: 2px;
+    width: 600px;
+    margin-left: 25%;
+    margin-right: 20%;
+    height: 100vh;
+    padding-top: 3px;
+    padding-bottom: 0%;
+    background-color: rgb(112, 235, 218);
+    display: none;
+
+
+}
+.imagens{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+ 
+
+}
+
+.dados{
+    text-align: center;
+}
+#foto1{
+   position: relative;
+   left:15%;
+   bottom: 0%;
+}
+#foto2{
+    position: relative;
+    right: 15%;
+    bottom: 0%;
+  
+ }
+ .conteudoh{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    position: fixed;
+    bottom: 0%;
+ }
+ .conteudom{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    position: fixed;
+    bottom: 1%;
+ }
