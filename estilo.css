@@ -55,13 +55,13 @@
 }
 #foto1{
     position: absolute;
-    bottom: 50%;
+    bottom: 30%;
     left: 25%;
     
 }
 #foto2{
     position: absolute;
-    bottom: 50%;
+    bottom: 30%;
     left: -25%;
 }
 }
