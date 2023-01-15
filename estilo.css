@@ -3,51 +3,65 @@
     box-sizing: border-box;
     
 }
-main{
-    
-    margin-top: 2px;
-    width: 600px;
-    margin-left: 25%;
-    margin-right: 20%;
-    height: 100vh;
-    padding-top: 3px;
-    padding-bottom: 0%;
-    background-color: rgb(112, 235, 218);
-    display: none;
-
-
-}
 .imagens{
-    background-color: black;
     display: flex;
     justify-content: center;
- 
-
-}
-
-.dados{
-    text-align: center;
+    background-color: blueviolet;
+    height: 100vh;
 }
 #foto1{
-   position: relative;
-   left:15%;
-   bottom: 0%;
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    margin-right: 70%;
 }
 #foto2{
-    position: relative;
-    right: 15%;
-    bottom: 0%;
-  
- }
- .conteudoh{
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-    position: fixed;
-    bottom: 0%;
- }
- .conteudom{
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-    position: fixed;
-    bottom: 1%;
- }
+    position: absolute;
+    bottom: 22%;
+    right: 40%;
+    margin-left: 60%;
+}
+@media (max-width: 600px)
+
+{
+    .imagens{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    height: 600px;
+    width: 320px;
+}
+#foto1{
+    position: absolute;
+    bottom: 10%;
+    left: 18%;
+    
+}
+#foto2{
+    position: absolute;
+    bottom: 12%;
+    left: -25%;
+}
+}
+@media (max-width: 1100px)
+
+{
+    .imagens{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100vw;
+}
+#foto1{
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+    
+}
+#foto2{
+    position: absolute;
+    bottom: 50%;
+    left: -25%;
+}
+}
