@@ -3,11 +3,19 @@
     box-sizing: border-box;
     
 }
+.dados{
+    background-color: black;
+    color: white;
+    height: 15%;
+    text-align: center;
+ 
+}
 .imagens{
     display: flex;
     justify-content: center;
     background-color: blueviolet;
     height: 100vh;
+    width: 100vw;
 }
 #foto1{
     position: absolute;
@@ -17,7 +25,7 @@
 }
 #foto2{
     position: absolute;
-    bottom: 22%;
+    bottom: 21.5%;
     right: 40%;
     margin-left: 60%;
 }
@@ -28,8 +36,9 @@
     display: flex;
     justify-content: center;
     background-color: blueviolet;
-    height: 600px;
-    width: 320px;
+    height: 100vh;
+    width: 100vw;
+
 }
 #foto1{
     position: absolute;
@@ -39,7 +48,7 @@
 }
 #foto2{
     position: absolute;
-    bottom: 12%;
+    bottom: 11.5%;
     left: -25%;
 }
 }
@@ -55,13 +64,13 @@
 }
 #foto1{
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     left: 25%;
     
 }
 #foto2{
     position: absolute;
-    bottom: 22%;
+    bottom: 11.5%;
     left: -25%;
 }
 }
