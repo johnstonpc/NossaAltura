@@ -11,7 +11,7 @@ function calcular (){
     var valorHcm =  parseInt(valorH1);
 
 
-    document.querySelector("#foto1").style.height=valorHcm+246+"px";
+    document.querySelector("#foto1").style.height=valorHcm+315+"px";
     document.querySelector("#foto2").style.height=valorMcm+250+"px";
 
 }
