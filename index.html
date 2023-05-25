@@ -12,16 +12,20 @@
 
 <body>
     <div class="dados">
-            <input type="number" id="HememNumero" placeholder="Homem altura em centimetros">
-        <input type="number" id="MulherNumero" placeholder="Mulher altura em centimetros">
+            <input type="number" id="HememNumero" max="300" placeholder="Homem altura em centimetros">
+        <input type="number" id="MulherNumero" max="300" placeholder="Mulher altura em centimetros">
         <input type="button" value="Calcular" onclick="calcular ()">
     </div>
-    <main>
-        <div class="imagens">
-            <div class="conteudoh"><img src="imagens/homem.png" id="foto1" alt="" width="300px" height="480px"></div>
-           <div class="conteudom"><img src="imagens/mulher.png" id="foto2" alt="" width="300px" height="400px"></div>
-        </div>
-    </main>
+    <div class="conteudo">
+
+        <main>
+            <div class="imagens">
+                <span class="homen"><img src="imagens/homem.png" id="foto1" alt="" width="300px" height="451px"></span>
+               <span class="mulher"><img src="imagens/mulher.png" id="foto2" alt="" width="300px" height="400px"></span>
+            </div>
+        </main>
+    </div>
+
 </body>
 
 </html>
